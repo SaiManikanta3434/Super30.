@@ -1,0 +1,150 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.round-btn{
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius:50px;
+    font-size: 20px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+   
+}
+
+.round-btn:hover{
+    background-color: #ccc;
+}
+
+.logo{
+    width: 128px;
+    
+}
+
+.yt-search-bar .form-control{
+    border-radius: 50px;
+    border: 1px solid #bcbaba;
+    
+
+}
+
+.yt-search-bar .input-group-text{
+    border-radius: 50px;
+    border: 1px solid #d8d5d5;
+    font-size: 24px;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.round-btn-2{
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius:50px;
+    font-size: 16px;
+    padding: 2px 14px 4px 14px;
+    height: 40px;
+    text-align: center;
+}
+
+.round-btn-2:hover{
+    background-color: #bfbdbd;
+}
+
+.round-btn-2 i{
+    font-size: 22px;
+    top: 3px;
+
+}
+
+.yt-sidebar{
+    position: fixed;
+    border-right: 1px solid grey;
+    width: 250px;
+    height: 100vh;
+    padding:10px;
+}
+
+.yt-content{
+    padding-left: 250px;
+}
+
+.yt-sidebar ul {
+    padding: 0;
+    margin:0;
+    
+}
+
+
+.yt-sidebar ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6px;
+
+}
+
+.row-design{
+    border-collapse: collapse;
+    width:20px;
+    height: auto;
+    align-items: center;
+    color: white;
+}
+
+
+.yt-sidebar ul li a{
+    display: block;
+    border-radius: 10px;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+}
+
+.yt-sidebar ul li a i{
+    font-size: 18px;
+    margin-right: 12px;
+    position: relative;
+    top: 1px;
+}
+
+.yt-sidebar ul li a.active:hover{
+    background-color: #eee;
+
+}
+
+.overflow-sidebar{
+    overflow-y: scroll;
+}
+
+.first-row{
+    display: flex;
+}
+
+.second-row{
+    display:flex;
+}
+
+
+@media (max-width:620px){
+    body{
+        flex-direction: column;
+        
+
+    }
+    .first-row .second-row{
+        width: 550px;
+    }
+        
+    
+}
+

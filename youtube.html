@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="">
+</head>
+
+
+<body>
+    <div class="yt-navbar p-2 shadow" style="position:sticky; top: 0; background-color: white">
+        <div class="container-fluid"> 
+            <div class="row"> <!--Parent of nav-->
+                <div class="col-md-3">  <!--Left Sub child-->
+                    <button class="btn round-btn"><i class="fa-solid fa-bars"></i></button>
+                    <img src="youuTubee.jpg.png" class="logo" alt="yt logo">
+                    
+                </div>
+
+
+                <div class="col-md-6"> <!--Middle sub shild-->
+                    <div class="yt-search-bar d-flex">
+
+                    
+                    <div class="input-group">  
+                        <input type="Search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                        <button class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        
+                      </div>
+                      <button class="btn round-btn ms-3"><i class="fa-solid fa-microphone mt-1"></i></button>
+                    </div>
+
+                </div>
+                <div class="col-md-3"> <!--Right sub child-->
+                    <div class="text-end">
+                        <button class="btn  round-btn-2"><i class="fa-solid fa-plus"></i>  Create</button>
+                        <button class="btn  round-btn-2 ms-3"><i class="fa-solid fa-bell mt-1"></i></button>
+                        <button class="btn  round-btn-2 ms-3"><i class="fa-solid fa-circle-user mt-1"></i></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="yt-main-area">
+        <div class="yt-sidebar overflow-sidebar mt-2"><!--side bars-->
+            
+            <ul>
+                <li><a href="" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-compass"></i>Shorts</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-tv"></i>Subscriptions</a></li>
+                <hr>
+                <li><a href="" class="active" style="font-size: 22px; font-weight: bold;">You ></a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-clock"></i>History</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-list"></i>Playlists</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-file-video"></i>Your videos</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-stopwatch"></i>Watch later</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-thumbs-up"></i>Liked Videos</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-download"></i>Downloads</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-scissors"></i>Your Clips</a></li>
+                <hr>
+                <li><a href="" class="active" style="font-size: 22px; font-weight: bold;">Subscriptions</a></li>
+                <li><a href="" class="active" style="font-size: 17px; "><img src="user.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"> Dodagatta Nihar</a></li>
+                <li><a href="" class="active" style="font-size: 17px; "><img src="Harsha.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"> Harsha Verse</a></li>
+                <li><a href="" class="active" style="font-size: 17px; "><img src="vasanta.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"> Guru codes</a></li>
+                <li><a href="" class="active"style="font-size: 17px; "><img src="amigo.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"> srijitha sunshine</a></li>
+
+
+
+
+            </ul>
+        
+
+        </div>
+        <div class="yt-content">     <!--Main videos-->
+            <div class="p-3">
+                <div class="yt-videos-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="first-row">
+                                    <div class="yt-row-card">
+                                        <div style="display: flex;" class="row-design">
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px; background-color: black;color: whitesmoke;">All</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Music</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Sports</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Wickets</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">watched</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Live</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Cinema</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Coding</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Podcasts</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Mixes</button></div>
+                                            <div style="padding-bottom: 15px; padding-right: 10px;"><button style="padding: 3px; text-align: center; border-radius: 10px;">Music</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="first-row">
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px; " height="210px" src="https://www.youtube.com/embed/0okbdDI6JdU?si=Nn66hAqnbCeGlsSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="user.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>This Video will make your <br> 2025 10x better🔥</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" src="https://www.youtube.com/embed/Gs287P2fxrE?si=5vOORFP1B1IBqKET" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="Harsha.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>5 Step Strategy to Get ANY <br> Job/Internship in 2025 (FREE Resources) 🔥</h5>
+                                                <p>Harsha Verse</p>
+                                                <p> 68k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" src="https://www.youtube.com/embed/ga8pfKoj0hM?si=m143QfzzLSwvTOaN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="vasanta.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>Launching Program and DSA Course</h5>
+                                                <p>Vasanta Kumar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" src="https://www.youtube.com/embed/DTfjPX98uJ0?si=i7MWNBKckYRUcTUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                        <div>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="user.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>Earn Lakhs after your Engineering</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 340k views . 5 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" src="https://www.youtube.com/embed/13ISrFdxnWM?si=jHif-xWeQD52eYAd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="amigo.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>The best way to start leet code</h5>
+                                                <p>Tech Success path</p>
+                                                <p> 60k views . 6 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" src="https://www.youtube.com/embed/601pq2e_asA?si=493AhXGp_GevjUAb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="301.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>Roasting Mr swaggy</h5>
+                                                <p>301 Diaries</p>
+                                                <p> 300k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="first-row">
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" src="https://www.youtube.com/embed/0okbdDI6JdU?si=Nn66hAqnbCeGlsSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="user.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>This Video will make your 2025 10x better🔥</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" style="border-radius: 15px;" src="https://www.youtube.com/embed/0okbdDI6JdU?si=Nn66hAqnbCeGlsSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="Harsha.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>This Video will make your 2025 10x better🔥</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" style="border-radius: 15px;" src="https://www.youtube.com/embed/0okbdDI6JdU?si=Nn66hAqnbCeGlsSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="Harsha.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>This Video will make your 2025 10x better🔥</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="first-row">
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" src="https://www.youtube.com/embed/0okbdDI6JdU?si=Nn66hAqnbCeGlsSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="user.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>This Video will make your 2025 10x better🔥</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" style="border-radius: 15px;" src="https://www.youtube.com/embed/0okbdDI6JdU?si=Nn66hAqnbCeGlsSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="Harsha.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>This Video will make your 2025 10x better🔥</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="yt-video-card">
+                                        <iframe style="width: 400px; padding-right: 30px;" height="210px" style="border-radius: 15px;" src="https://www.youtube.com/embed/0okbdDI6JdU?si=Nn66hAqnbCeGlsSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div style>
+                                            <div>
+                                                <button class="btn rounded-btn"><img src="Harsha.jpg" alt="user" style="width: 30px; height: 25px; border-radius: 50px;"></button>
+                                            </div>
+                                            <div>
+                                                <h5>This Video will make your 2025 10x better🔥</h5>
+                                                <p>Dodagatta Nihar</p>
+                                                <p> 34k views . 2 months ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    
+</body>
+</html>
